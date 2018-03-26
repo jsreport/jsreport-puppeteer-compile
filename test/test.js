@@ -43,7 +43,7 @@ describe('single executable', () => {
       template: { content: 'Foo', recipe: 'chrome-pdf', engine: 'none' }
     }
 
-    const res = await reporter.render(request, {})
+    const res = await reporter.render(request)
     res.content.toString().should.containEql('%PDF')
   })
 })
