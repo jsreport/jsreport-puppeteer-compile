@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "archiver": "2.1.1",
-    "yauzl": "2.9.1"
+    "extract-zip": "1.6.6"
   },
   "author": "Jan Blaha",
   "devDependencies": {
