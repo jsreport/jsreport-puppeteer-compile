@@ -1,5 +1,5 @@
-var main = require('./lib/puppeteerCompile')
-var config = require('./jsreport.config.js')
+const main = require('./lib/puppeteerCompile')
+const config = require('./jsreport.config.js')
 
 module.exports = function (options) {
   config.options = options

@@ -4,7 +4,7 @@ require('should')
 describe('single executable', () => {
   function createReporter () {
     return JsReport({
-      tasks: {
+      templatingEngines: {
         strategy: 'in-process'
       }
     })
