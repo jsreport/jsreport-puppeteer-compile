@@ -22,7 +22,9 @@ describe('single executable', () => {
     let reporter = createReporter()
 
     let pathToZip
+
     reporter.compilation = {
+      resource () {},
       resourceInTemp (name, path) {
         pathToZip = path
       }
@@ -31,6 +33,7 @@ describe('single executable', () => {
     await reporter.init()
 
     reporter = createReporter()
+
     reporter.execution = {
       resourceTempPath () {
         return pathToZip
