@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "archiver": "3.0.0",
-    "extract-zip": "1.6.7"
+    "extract-zip": "1.6.7",
+    "shortid": "2.2.15"
   },
   "author": "Jan Blaha",
   "devDependencies": {
