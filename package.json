@@ -1,6 +1,6 @@
 {
   "name": "jsreport-puppeteer-compile",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Extra jsreport extension which compiles chrome binary into the jsreport executable",
   "homepage": "https://github.com/jsreport/jsreport-puppeteer-compile",
   "repository": {
